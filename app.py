@@ -738,7 +738,7 @@ with tab6:
             orientation="h",
             color="Average",
             text_auto=".2f",
-            title=f"{selected_review_metric} by {selected_review_group"
+            title=f"{selected_review_metric} by {selected_review_group}"
         )
 
         fig.update_layout(
