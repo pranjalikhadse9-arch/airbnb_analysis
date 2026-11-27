@@ -127,7 +127,7 @@ def load_data(file):
 
     return df
 
-df = load_data(uploaded_file.getvalue())
+df = load_data(uploaded_file)
 
 # ---------------- SIDEBAR FILTERS ----------------
 st.sidebar.title("🎛️ Dashboard Filters")
