@@ -135,7 +135,7 @@ def load_data(file_bytes):
     return df
 
 
-df = load_data(uploaded_file.getvalue())
+df = load_data(uploaded_file)
 
 # =========================================================
 # IDENTIFY COLUMNS
